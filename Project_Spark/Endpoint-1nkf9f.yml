@@ -7,6 +7,6 @@ metadata:
   tags: []
 spec:
   method: CUSTOM
-  readTimeout: 30
+  readTimeout: 35
   url: https://swagger.io/api/v3
   connectTimeout: 40
