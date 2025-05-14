@@ -1,0 +1,12 @@
+kind: HTTPEndpoint
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: Spark_Endpoint
+  namespace: Project_Spark
+  version: '1.0'
+  tags: []
+spec:
+  method: CUSTOM
+  readTimeout: 30
+  url: https://swagger.io/api/v3
+  connectTimeout: 40

@@ -8,4 +8,4 @@ metadata:
     - routing
 spec:
   default-endpoint:
-    $ref: hydra:Hydraendpoint:1.0
+    $ref: Project_Spark:Spark_Endpoint:1.0
