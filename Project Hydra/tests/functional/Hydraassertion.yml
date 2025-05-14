@@ -1,0 +1,16 @@
+kind: assertion
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: Hydraassertion
+  namespace: hydra
+  version: '1.0'
+  tags: []
+spec:
+  - name: Validate the response status
+    key: code
+    value: 404
+    action: equals
+  - name: Less Than the response Time
+    key: responseTime
+    value: 10000
+    action: lessThan
