@@ -303,7 +303,7 @@
         tags:
           - store
         summary: Place an order for a pet
-        description: ''
+        description: 'operation for order resource'
         operationId: placeOrder
         requestBody:
           content:
