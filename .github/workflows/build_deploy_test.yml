@@ -28,7 +28,7 @@ jobs:
 
       - name: Build project
         run: |
-          wm apim build -l ./ -o buildarchive.zip "Project Hydra"
+          wm apim build -l ./ -o buildarchive.zip "Project_Spark"
         
    Test:
     name: Run Functional tests
@@ -49,7 +49,7 @@ jobs:
           
       - name: Run tests on the API Studio project
         run: |
-         wm apim test -l ./ --deploy --target ${{ secrets.Gateway_URL }} --username ${{ secrets.Gateway_Username }} --password ${{ secrets.Gateway_Password }} --debug "Project Hydra"
+         wm apim test -l ./ --deploy --target ${{ secrets.Gateway_URL }} --username ${{ secrets.Gateway_Username }} --password ${{ secrets.Gateway_Password }} --debug "Project_Spark"
 
    Performance:
     name: Run performance tests
@@ -85,4 +85,4 @@ jobs:
           
       - name: Deploy API Studio project
         run: |
-          wm apim deploy -l ./ --target ${{ secrets.Prod_Gateway_URL }} --username ${{ secrets.Prod_Gateway_Username }} --password ${{ secrets.Prod_Gateway_Password }} --overwrite --debug "Project Hydra"
+          wm apim deploy -l ./ --target ${{ secrets.Prod_Gateway_URL }} --username ${{ secrets.Prod_Gateway_Username }} --password ${{ secrets.Prod_Gateway_Password }} --overwrite --debug "Project_Spark"
