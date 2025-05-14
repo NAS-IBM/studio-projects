@@ -1,0 +1,12 @@
+kind: PolicySequence
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: policy-sequence
+  namespace: Project_Spark
+  version: '1.0'
+  tags: []
+spec:
+  routing:
+    - $ref: Project_Spark:straight-through:1.0
+  transport:
+    - $ref: Project_Spark:transport:1.0

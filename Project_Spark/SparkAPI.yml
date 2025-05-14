@@ -10,3 +10,5 @@ metadata:
 spec:
   api-spec:
     $path: SparkAPI-spec.yml
+  policy-sequence:
+    - $ref: Project_Spark:policy-sequence:1.0

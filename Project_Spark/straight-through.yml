@@ -1,0 +1,11 @@
+kind: Route
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: straight-through
+  namespace: Project_Spark
+  version: '1.0'
+  tags:
+    - routing
+spec:
+  default-endpoint:
+    $ref: hydra:Hydraendpoint:1.0
