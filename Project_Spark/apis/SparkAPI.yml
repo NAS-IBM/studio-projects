@@ -9,6 +9,6 @@ metadata:
   type: REST
 spec:
   api-spec:
-    $path: SparkAPI-spec.yml
+    $path: ./SparkAPI-spec.yml
   policy-sequence:
     - $ref: Project_Spark:policy-sequence:1.0
