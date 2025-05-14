@@ -9,4 +9,4 @@ spec:
   method: CUSTOM
   readTimeout: 35
   url: https://swagger.io/api/v3
-  connectTimeout: 40
+  connectTimeout: 60
