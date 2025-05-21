@@ -10,7 +10,7 @@ spec:
     $ref: 'Project_Spark:SparkAPI:1.0'
   request:
     - method: GET
-      resource: pet/11
+      resource: pet/1
       headers:
         - key: Content-Type
           value: application/json
