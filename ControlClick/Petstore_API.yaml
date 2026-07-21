@@ -1,0 +1,11 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: Petstore_API
+  version: 1.0.1
+  namespace: ControlClick
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./petstore_api-spec.yml

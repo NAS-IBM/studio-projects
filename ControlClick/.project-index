@@ -1,0 +1,50 @@
+{
+  "nodes": [
+    {
+      "id": "0f8e0c55-64f8-4d64-8dae-6b126e244cdd:0",
+      "projectId": "LANtI590",
+      "filePath": "ControlClick/petstore_api-spec.yml",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784642223877,
+      "schemaVersion": 1
+    },
+    {
+      "id": "2d385a51-876c-4fb7-81ef-ee42ca678225:0",
+      "projectId": "LANtI590",
+      "filePath": "ControlClick/.project-index",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1784642147847,
+      "schemaVersion": 1
+    },
+    {
+      "id": "a8b36717-cc65-4c82-8734-67e2d1834120:0",
+      "projectId": "LANtI590",
+      "filePath": "ControlClick/Petstore_API.yaml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784642225480,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "Petstore_API",
+      "namespace": "ControlClick",
+      "version": "1.0.1",
+      "contentHash": "563d1eec713d64b7"
+    }
+  ],
+  "edges": [
+    {
+      "id": "da7c11a5-5c99-4480-bd7e-33003c95724f",
+      "projectId": "LANtI590",
+      "sourceNodeId": "a8b36717-cc65-4c82-8734-67e2d1834120:0",
+      "targetNodeId": "0f8e0c55-64f8-4d64-8dae-6b126e244cdd:0",
+      "targetRefType": "same-project",
+      "targetRefString": "./petstore_api-spec.yml",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1784642225495,
+      "lastValidated": 1784642225495
+    }
+  ]
+}

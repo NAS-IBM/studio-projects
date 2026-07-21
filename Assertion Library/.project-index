@@ -1,0 +1,47 @@
+{
+  "nodes": [
+    {
+      "id": "29f3600a-27cc-4369-a87b-2ea6d84442fc:0",
+      "projectId": "QQleaqT4",
+      "filePath": "Assertion Library/Library-Petstore.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784642060711,
+      "schemaVersion": 1,
+      "kind": "assertion",
+      "name": "Library-Petstore",
+      "namespace": "Assertion Library",
+      "version": "1.0",
+      "contentHash": "e7669bc30c03bf33"
+    },
+    {
+      "id": "77dd1222-8ecc-4757-9e3e-36e0a9b95382:0",
+      "projectId": "QQleaqT4",
+      "filePath": "Assertion Library/Library-BasicAssertion.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784642059090,
+      "schemaVersion": 1,
+      "kind": "assertion",
+      "name": "Library-BasicAssertion",
+      "namespace": "library",
+      "version": "1.0",
+      "contentHash": "61a722885a57f047"
+    },
+    {
+      "id": "8e3cefce-26fa-4c21-8ff1-a12efdaf482b:0",
+      "projectId": "QQleaqT4",
+      "filePath": "Assertion Library/Library-PayloadAssertion.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1784642059688,
+      "schemaVersion": 1,
+      "kind": "assertion",
+      "name": "Library-PayloadAssertion",
+      "namespace": "library",
+      "version": "1.0",
+      "contentHash": "2cd150fb72015b12"
+    }
+  ],
+  "edges": []
+}
